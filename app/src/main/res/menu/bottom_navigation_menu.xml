@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"></item>
+
+    <item android:title="Activity"
+        android:id="@+id/activity"
+        android:icon="@drawable/ic_baseline_activity_24"></item>
+
+    <item android:title="Gallery"
+        android:id="@+id/gallery"
+        android:icon="@drawable/ic_baseline_image_24"></item>
+
+    <item android:title="Music"
+        android:id="@+id/music"
+        android:icon="@drawable/ic_baseline_library_music_24"></item>
+
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_profile_24"></item>
+
+</menu>

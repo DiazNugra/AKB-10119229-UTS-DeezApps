@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dailyFragment"
+    android:background="@color/overlayGreyBG"
+    android:padding="15sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/judulDaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Daily Activity"
+            style="@style/titleText">
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardDaily"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/judulDaily"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="20sp"
+            android:backgroundTint="@color/overlayBlackBG">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/daily_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/judulDaily"
+                    android:layout_margin="5dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+</ScrollView>

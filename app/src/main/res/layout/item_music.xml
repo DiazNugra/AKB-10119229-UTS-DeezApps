@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="0dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_music"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/coversong_u"
+                android:layout_centerVertical="true"
+                app:shapeAppearanceOverlay="@style/roundImageCorner">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+            <TextView
+                android:id="@+id/nama_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="U"
+                android:layout_toEndOf="@+id/img_music"
+                android:layout_marginStart="15dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="17dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/artis_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama_music"
+                android:text="Millenium Parade X Belle"
+                android:layout_toEndOf="@+id/img_music"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+
+
+</LinearLayout>

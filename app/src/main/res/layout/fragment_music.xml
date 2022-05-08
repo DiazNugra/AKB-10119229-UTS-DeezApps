@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dailyFragment"
+    android:background="@color/overlayGreyBG"
+    android:padding="15sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/judulMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/monseratt_medium"
+        android:text="Favorite Music"
+        android:textColor="@color/white"
+        android:textSize="28sp">
+
+    </TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardMusic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/judulMusic"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="30dp"
+            android:backgroundTint="@color/overlayBlackBG">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/music_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/judulMusic"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/judulMV"
+            style="@style/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardMusic"
+            android:text="Favorite Video"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/judulMVLiterature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judulMV"
+            android:layout_marginTop="8dp"
+            android:text="@string/literature"
+            style="@style/subTitleText">
+
+        </TextView>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view_fav_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judulMVLiterature"
+        android:layout_marginTop="15dp"
+        app:videoId="ufLKDNlLrAQ"
+        app:autoPlay="false" />
+
+        <TextView
+            android:id="@+id/judulVideoFavorit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/youtube_player_view_fav_music"
+            android:layout_marginTop="8dp"
+            android:text="Maeshima Ami Compilation"
+            style="@style/subTitleText">
+
+        </TextView>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view_fav_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judulVideoFavorit"
+            android:layout_marginTop="15dp"
+            app:videoId="53FTPrs9m34"
+            app:autoPlay="false" />
+
+        </RelativeLayout>
+
+</ScrollView>

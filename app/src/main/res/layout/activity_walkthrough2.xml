@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".walkthroughActivity1"
+    android:background="@color/overlayGreyBG"
+    android:padding="20sp">
+
+    <TextView
+        android:id="@+id/penggunaanApps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/penggunaanApps"
+        android:textColor="@color/white"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/penggunaanApps"
+        android:layout_marginTop="30dp"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:id="@+id/navTutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/deskTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/navTutorial"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/tutorPemakaian"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/deskTutorial2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deskTutorial"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/penjelasanButtonNav"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="24sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLanjut2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/custom_button"
+        android:text="Lanjut"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Deez Apps</string>
+    <string name="walktrhough1">Aplikasi Ini Digunakan Untuk Melihat Profil Pembuat Aplikasi, Dalam Aplikasi Ini Terdapat Berbagai Informasi Mengenai Pembuat Aplikasi Seperti Nama, Hobby, dan Hal Yang Menarik Bagi Pembuat Apps.</string>
+    <string name="infoApps"><u>Tentang Aplikasi</u></string>
+    <string name="penggunaanApps">Penggunaan Apps</string>
+    <string name="tutorPemakaian">User Dapat Masuk Ke berbagai Menu Melalui Bottom Navigation Bar Yang Terdapat Pada Bagian Bawah Setiap Halaman.</string>
+    <string name="penjelasanButtonNav">Secara Berurutan, Tombol pada Navbar Yaitu Home, Daily Activity, Gallery, Music, Profile.</string>
+    <string name="selamatMulai">Selamat Menggunakan :)</string>
+    <string name="nama">Diaz Maulidzan Nugraha</string>
+    <string name="nim">10119229</string>
+    <string name="deskripsi1">Nama Saya Diaz Maulidzan Nugraha, Saya seorang mahasiswa semester 6 jurusan Teknik Informatika di Universitas Komputer Indonesia.</string>
+    <string name="deskripsi2">Saya memiliki ketertarikan terhadap bidang UI / UX sehingga saya menghabiskan cukup banyak waktu untuk mempelajari dasar - dasar membuat desain interface yang baik.</string>
+    <string name="deskripsi3">Aplikasi ini merupakan salah satu bentuk implementasi ilmu yang saya dapat selama mempelajari mata kuliah Aplikasi Komputasi Bergerak.</string>
+    <string name="photography">PHOTOGRAPHY</string>
+    <string name="coding">CODING</string>
+    <string name="gaming">GAMING</string>
+    <string name="interest">HOBBIES &amp; INTEREST</string>
+    <string name="kontak">CONTACT ME!</string>
+    <string name="unameInsta">diazmnugraha</string>
+    <string name="noWA">081322508258</string>
+    <string name="fb">Diaz M N</string>
+    <string name="twitter">Nugrahaha</string>
+    <string name="makesMikes">MAKES &amp; MIKES</string>
+    <string name="sate">SATE</string>
+    <string name="cola">COLA</string>
+    <string name="literature"><u>リテラチュア - Ueda Reina</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
