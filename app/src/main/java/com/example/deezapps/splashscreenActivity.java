@@ -22,7 +22,7 @@ public class splashscreenActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(splashscreenActivity.this, homeActivity.class);
+                Intent intent = new Intent(splashscreenActivity.this, walkthroughActivity1.class);
                 startActivity(intent);
                 finish();
             }
